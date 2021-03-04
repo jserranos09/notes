@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <img src="https://resources.oreilly.com/examples/9780596006303/raw/master/ch03/initial/makemeelvis/elvislogo.gif" alt="make me elvis">
+</head>
+<body style="margin-left: 15px">
+    <h2>For admin use only</h2>
+    <h4>Write and send email to mailig list</h4>
+    <form action = "sendemail.php" method = 'post'>
+        <label for="subject">Subject of email:</label> <br />
+        <input type="text" id="subject" name="subject" size="60" /><br />
+        <label for="elvismail">Body of email:</label> <br />
+        <textarea id="elvismail" name="elvismail" rows="8" cols="60"></textarea><br />
+        <input type="submit" value="Submit" name="submit" />
+    </form>
+</body>
+</html>
