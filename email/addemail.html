@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <style type="text/css" media="screen"> form label
+        { display: inline-block;  width: 225px;
+        font-weight: bold;
+        }
+    </style>
+        <img src="https://resources.oreilly.com/examples/9780596006303/raw/master/ch03/initial/makemeelvis/elvislogo.gif" alt="make me elvis">
+</head>
+<body>
+    <h2>Welcome to MAKE ME ELVIS!</h2>
+    <h4>Enter your first name, last name, and email to be added to our mailing list</h4>
+    <form action = "addemail.php" method = 'post'>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" /><br />
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" /><br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" /><br />
+        <input type="submit" value="submit" name="submit" />
+      </form>
+</body>
+</html>
